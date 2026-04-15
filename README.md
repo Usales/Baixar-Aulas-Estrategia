@@ -164,7 +164,7 @@ Se você apagou `course-urls.json` por engano, o programa pode recriar conforme 
 
 <h3 id="pdfconfig">Bloco `pdfConfig`</h3>
 
-- **`pastaDownloads`**: pasta onde os **PDFs** serão salvos. Use caminho absoluto, por exemplo `D:/Estrategia/PDFs` ou `C:/Users/.../Downloads/EstrategiaPDF`. Evite caminhos muito exóticos com permissão restrita até testar.
+- **`pastaDownloads`**: pasta onde os **PDFs** serão salvos. Use caminho absoluto (no modelo do repositório usamos algo como `C:/Temp/EstrategiaDownloader/PDFs`; ajuste para uma pasta **sua** com espaço em disco). Evite caminhos com permissão restrita até testar.
 - **`pdfType`**: número de **1 a 5**, ligado ao “Tipo de PDF” na interface. Significado na prática (nomes iguais aos da tela):
   - **1** — Simplificado  
   - **2** — Original  
@@ -175,7 +175,7 @@ Se você apagou `course-urls.json` por engano, o programa pode recriar conforme 
 
 <h3 id="videoconfig">Bloco `videoConfig`</h3>
 
-- **`pastaDownloads`**: pasta dos **vídeos**.
+- **`pastaDownloads`**: pasta dos **vídeos** (no exemplo do repositório: `C:/Temp/EstrategiaDownloader/Videos` — troque pelo caminho que quiser).
 - **`resolucaoEscolhida`**: uma entre **`720p`**, **`480p`**, **`360p`** (mesmas opções da interface).
 
 ---

@@ -88,7 +88,7 @@ def looks_like_individual_course_url(url: str) -> bool:
     if not is_estrategia_domain(url):
         return False
     lower = url.lower()
-    # Área do aluno (ex.: .../app/dashboard/cursos/229171/aulas)
+    # Área do aluno (ex.: .../app/dashboard/cursos/123456/aulas)
     if re.search(r"/app/dashboard/cursos/\d+", lower):
         return True
     if re.search(r"/cursos/\d+", lower):
@@ -230,7 +230,7 @@ MSG_PACOTE_INVALIDO = (
 
 MSG_CURSO_INVALIDO = (
     "URL de matéria inválida. Exemplos válidos:\n"
-    "  • https://www.estrategiaconcursos.com.br/app/dashboard/cursos/229171/aulas\n"
+    "  • https://www.estrategiaconcursos.com.br/app/dashboard/cursos/123456/aulas\n"
     "  • https://www.estrategiaconcursos.com.br/cursos/12345/.../aulas\n"
     "Cole só o link (uma linha), sem texto extra antes ou depois."
 )

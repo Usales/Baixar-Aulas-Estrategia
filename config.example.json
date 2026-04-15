@@ -4,12 +4,12 @@
     "downloadType": "pdf",
     "headless": true,
     "pdfConfig": {
-        "pastaDownloads": "D:/Estrategia/PDFs",
+        "pastaDownloads": "C:/Temp/EstrategiaDownloader/PDFs",
         "pdfType": 5,
         "concurrentMatriculas": 6
     },
     "videoConfig": {
-        "pastaDownloads": "D:/Estrategia/Videos",
+        "pastaDownloads": "C:/Temp/EstrategiaDownloader/Videos",
         "resolucaoEscolhida": "720p"
     },
     "minimizeAfterLogin": false
