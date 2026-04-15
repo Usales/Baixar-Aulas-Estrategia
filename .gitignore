@@ -1,0 +1,26 @@
+# Credenciais e configuração local (copie config.example.json)
+config.json
+
+# Estado de download e filas locais
+progress.json
+course-urls.json
+meus-cursos-mapeados.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Playwright
+.playwright/

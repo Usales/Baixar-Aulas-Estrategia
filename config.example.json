@@ -1,0 +1,16 @@
+{
+    "email": "seu-email@exemplo.com",
+    "senha": "SUA_SENHA",
+    "downloadType": "pdf",
+    "headless": true,
+    "pdfConfig": {
+        "pastaDownloads": "D:/Estrategia/PDFs",
+        "pdfType": 5,
+        "concurrentMatriculas": 6
+    },
+    "videoConfig": {
+        "pastaDownloads": "D:/Estrategia/Videos",
+        "resolucaoEscolhida": "720p"
+    },
+    "minimizeAfterLogin": false
+}
